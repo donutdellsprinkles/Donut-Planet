@@ -1,0 +1,58 @@
+body{
+    background-color: #F88379;
+    color: #303030;
+    font-family: Comic;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  @font-face {
+      font-family: BD;
+      src: url(BD.otf);
+  }
+  
+  @font-face {
+      font-family: Simp;
+      src: url(simpson.otf)
+  }
+  
+  @font-face {
+      font-family: Comic;
+      src: url(BoldlyMissy.otf)
+  }
+  
+  label{
+    width: 5%;
+    display: inline-block;
+    text-align: right;
+    font-family: Comic;
+    color: #FFFDD0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  input{
+    background: #e5e5e5;
+    color: #5A5A5A;
+    font-size: 120%;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .Message{
+    color: #a0a0a0;
+  }
+  
+  #Main{
+    background: #F88379;
+    border-radius: 1%;
+    padding-left: 1%;
+  }
+  
+  #Title{
+    font-size: 300%;
+    font-family: Simp;
+  }
+  .name {
+    color: #FFBF00;
+  }

@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title> Donut Delight Gallery </title>
+    <link rel="icon" type="image/x-icon" href="https://em-content.zobj.net/thumbs/120/twitter/348/doughnut_1f369.png">
+    <meta name = "charset" charset = "utf-8">
+    <meta name = "viewport" content = "width=device-width">
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <script src = "script.js"></script>
+    <script src= "socket.io/socket.io.js"></script>
+  </head>
+  <body onload = "onload()">
+    <textarea id="image-url" placeholder="Paste image URL here"></textarea>
+    <br>
+    <button onclick="generatePreview()">Generate Preview</button>
+    <br>
+    <h2>Preview Image:</h2>
+    <img id="preview-image" alt="Preview Image">
+    <br>
+    
+    <div id = "Main">
+      <audio id = "Ding" src = "Ding1.mp3"> </audio>
+      <div id = "AccessPort">
+        <input id = "NameInput" type = "text" value="donut" readonly>
+        <br><br>
+        <input id = "IDInput" value = "all" type = "text" readonly>
+        <input id = "ConnectButton" class = "Button"  value = "" onclick = "Connect()" type="image" src="https://static.vecteezy.com/system/resources/thumbnails/000/575/433/small/vector60-5817-01.jpg" width="20" height="20" >
+      </div>
+      <div id = "Chat">
+        <p id = "Message0" class = "Message"> - </p>
+        <p id = "Message1" class = "Message"> - </p>
+        <p id = "Message2" class = "Message"> - </p>
+        <p id = "Message3" class = "Message"> - </p>
+        <p id = "Message4" class = "Message"> - </p>
+        <p id = "Message5" class = "Message"> - </p>
+        <p id = "Message6" class = "Message"> - </p>
+        <p id = "Message7" class = "Message"> - </p>
+        <p id = "Message8" class = "Message"> - </p>
+        <p id = "Message9" class = "Message"> - </p>
+        <input id = "ComposedMessage" type = "text">
+        <input id = "SendMessage" onclick="Send()" value = "Send" class = "Button" type = "image" src="https://static.thenounproject.com/png/1154339-200.png" width="20" height="20">
+      </div>
+      <br><br>
+    </div>
+    <script>
+        function generatePreview() {
+            var imageUrl = document.getElementById('image-url').value;
+            var imgElement = document.getElementById('preview-image');
+            
+            imgElement.src = imageUrl;
+        }
+    </script>
+  </body>
+</html>
