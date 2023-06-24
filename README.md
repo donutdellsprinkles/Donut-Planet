@@ -10,7 +10,7 @@
 # Donut Blog
 - Make sure to tune into Donut Blog every now and then as it will be where I will primarily post updates on donut planet and showcase upcoming features.
 # Update Status
-- Newest update added some quality of life changes and improved upon Donut chat
+- Newest update reworked the donut gallery completely
 # Donut in!
 - [Donut Planet](https://donut-planet.donutdellsprinkles.repl.co/)
 - Psst... put the word "donut" as a code to get 300 sprinkles!
