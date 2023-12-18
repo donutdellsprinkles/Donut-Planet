@@ -1,4 +1,5 @@
-# Donut-Planet
+# Donut-Planet: ALERTTT
+- As of writing this version of donut planet is dead, don't bother go check out donut planet 2.0 
 - Donut themed Social Media
 # Donut Chat
 - Chat with other people on a massive number of different Donut Hubs. Just choose one, its that Simple!
